@@ -15,10 +15,10 @@ const connectDB = async() => {
   try {
     const connectionIns = await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
     console.log("MongoDB connected !!") 
-
   } catch (err) {
     console.log("ERROR connecting database : "+ err)
     throw err
   } 
 }
+
 export default connectDB;
