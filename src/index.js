@@ -5,6 +5,7 @@ import { DB_NAME } from "./constants.js";
 import connectDB from "./db/db.js";
 import dotenv from "dotenv";
 
+//dotnet config
 dotenv.config({
     path:'./env'
 })
