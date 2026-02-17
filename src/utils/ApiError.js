@@ -1,4 +1,6 @@
 // handles error
+
+// to-do
 class ApiError extends Error {
   constructor(
     statusCode,
